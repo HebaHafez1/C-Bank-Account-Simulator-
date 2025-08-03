@@ -1,0 +1,14 @@
+public class Savings : BankAccount
+{
+    public decimal MinimumBalance { get; set; }
+
+    public override void Withdraw(decimal amount)
+    {
+        // Checks balance against minimum
+    }
+
+    public override string ToString()
+    {
+        // Returns formatted savings account info
+    }
+}
