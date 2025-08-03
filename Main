@@ -1,0 +1,10 @@
+static void Main(string[] args)
+{
+    var checkingAccount = new Checkings(...);
+    checkingAccount.Deposit(...);
+    checkingAccount.Withdraw(...);
+
+    var savingsAccount = new Savings(...);
+    savingsAccount.Deposit(...);
+    savingsAccount.Withdraw(...);
+}
