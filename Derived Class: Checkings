@@ -1,0 +1,14 @@
+public class Checkings : BankAccount
+{
+    public decimal OverdraftLimit { get; set; }
+
+    public override void Withdraw(decimal amount)
+    {
+        // Allows overdrafts within set limit
+    }
+
+    public override string ToString()
+    {
+        // Returns formatted checkings account info
+    }
+}
