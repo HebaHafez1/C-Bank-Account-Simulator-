@@ -1,0 +1,7 @@
+public abstract class BankAccount
+{
+    // Properties and constructor
+    // Deposit method
+    public abstract void Withdraw(decimal amount);
+    public abstract override string ToString();
+}
